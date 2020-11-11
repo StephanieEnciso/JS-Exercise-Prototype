@@ -115,10 +115,13 @@ const babyOne = new Baby('Lucy', 5, 'keys');
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global binding - meaning if the this keyword is not given any context it is bound to the window and JS assumes we are referencing something within the window.
+
+  2. Implicit binding - is that when one calls a function with dot notation the this keyword is bound to the object that's to the left of the dot.
+
+  3. New binding - in a contructor function the this keyword refers to the instance when an object is created and returned. It is new binding because with every new object the this keyword refers to the new object in that instance. You use the new keyword to create these new objects
+
+  4. Explicit binding - is when the call or apply methods are use in which instance the this keyword is defined. It explicity tells you what the this keyword is bound to because you look at what is passed as an argument and that is what the this keyword is bound to.
 */
 
 
